@@ -13,7 +13,7 @@
     src: url("assets/font/ACES07_Regular.ttf")
 }
 body {
-    background: url(assets/images/geoscape.png) top right;
+    background: url(assets/media/geoscape.png) top right;
 }
 .ce {
     font-family: ACES07_Regular;
