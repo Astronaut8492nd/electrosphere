@@ -12,9 +12,6 @@
     font-family: 'ACES07_Regular';
     src: url("assets/font/ACES07_Regular.ttf")
 }
-.bg {
-  volume: 0.1;
-}
 .start {
         font-family: ACES04_Heavy;
         font-size: 1.5em;
