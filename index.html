@@ -8,7 +8,26 @@
             background-attachment: fixed;
         }
         </style>
+        <script>
+            function play(audio) {
+                audio.play();
+                return new Promise(function(resolve, reject) {
+                    audio.addEventListener('ended', resolve);
+                });
+            }
 
+            function myFunction() {
+                var audio1 = new Audio('assets/sounds/ace3_menu_start.mp3');
+                var audio2 = new Audio('assets/sounds/ace3_menu_start.mp3');
+                var audio3 = new Audio('assets/sounds/ace3_menu_start.mp3');
+
+                play(audio1).then(function() {
+                    return play(audio2);
+                }).then(function() {
+                    return play(audio3);
+                });
+            }
+        </script>
         <embed height="0" width="0" src="assets/sound/ace3_menu_start.mp3">
         <head>
             <title>The Electrosphere</title>
