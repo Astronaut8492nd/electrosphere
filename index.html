@@ -12,22 +12,9 @@
             <title>The Electrosphere</title>
             <link rel="stylesheet" href="index.css">
         <script>
-             play(audio) {
-                audio.play();
-                return new Promise(function(resolve, reject) {
-                    audio.addEventListener('ended', resolve);
-                });
-            }
-            
-             myFunction() {
-                var audio1 = new Audio('assets/sounds/ace3_menu_start.mp3');
-
-                play(audio1).then(function() {
-                    return play(audio2);
-                }).then(function() {
-                    return play(audio3);
-                });
-            }
+            <audio src="assets/sound/ace3_menu_start.mp3" controls></audio>
+            var audio = document.querySelector("audio");
+            audio.play();
         </script>
         </head>
         
