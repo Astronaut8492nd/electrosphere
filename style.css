@@ -1,0 +1,143 @@
+<style> 
+
+@font-face {
+    font-family: 'ACES04';
+    src: url("assets/font/ACES04.ttf")
+}
+@font-face {
+    font-family: "ACES04_Heavy";
+    src: url("assets/font/ACES04_Heavy.ttf")
+}
+@font-face {
+    font-family: 'ACES07_Regular';
+    src: url("assets/font/ACES07_Regular.ttf")
+}
+body {
+    background: url(assets/images/geoscape.png) top right;
+}
+.ce {
+    font-family: ACES07_Regular;
+    font-size: 1.5em;
+    background-color: darkblue;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 24%;
+    border-style: solid;
+    border-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-color: darkcyan;
+}
+.zm {
+    font-family: ACES07_Regular;
+    font-size: 1.5em;
+    background-color: darkblue;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 300px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 24%;
+    border-style: solid;
+    border-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-color: darkcyan;
+}
+p.jam {
+    font-family: ACES07_Regular;
+    color: navajowhite;
+    font-size: 1em;
+    background-color: rebeccapurple;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 3.5px;
+    padding: 3px;
+    width: 97.5%;
+    border-style: solid;
+    border-width 0px;
+    border-color: black;
+}
+h1.title {
+        font-family: ACES04_Heavy;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        background-color: skyblue;
+        padding: 15px;
+        width: 96%;
+        border-style: solid;
+        border-width: 2px;
+        border-left-width: 5px;
+        border-right-width: 5px;
+        border-color: cornflowerblue;
+}
+        a {
+            color:aquamarine;
+        }
+
+        h1 {
+            color:ghostwhite;
+        }
+        
+        h2 {
+            color:beige;
+        }
+        h3 {
+            color:beige;
+        }
+        h4 {
+            color:beige;
+        }
+        h5 {
+            color:beige;
+        }
+        h6 {
+            color:beige;
+        }
+        ol {
+            color:antiquewhite;
+        }
+        ul {
+            color:antiquewhite;
+        }
+        p {
+            color:antiquewhite;
+        }
+        dt {
+            color:burlywood;
+        }
+        dd {
+            color:burlywood;
+    }
+
+a:active {
+    color: firebrick;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: deepskyblue;
+    opacity: 70%;
+    border-style: dotted;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: aqua;
+}
+
+a:link {
+    color:aqua
+}
+
+a:visited {
+    color:aquamarine
+}
+
+</style>

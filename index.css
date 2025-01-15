@@ -1,0 +1,70 @@
+<style>
+
+@font-face {
+    font-family: 'ACES04';
+    src: url("assets/font/ACES04.ttf")
+}
+@font-face {
+    font-family: 'ACES04_Heavy';
+    src: url("assets/font/ACES04_Heavy.ttf")
+}
+@font-face {
+    font-family: 'ACES07_Regular';
+    src: url("assets/font/ACES07_Regular.ttf")
+}
+.bg {
+  volume: 0.1;
+}
+.start {
+        font-family: ACES04_Heavy;
+        font-size: 1.5em;
+        background-color: darkblue;
+        margin-top: 10px;
+        margin-right: 300px;
+        margin-bottom: 300px;
+        margin-left: 700px;
+        padding: 15px;
+        width: 22%;
+        border-style: solid;
+        border-width: 2px;
+        border-left-width: 2px;
+        border-right-width: 2px;
+        border-color: darkcyan;
+}
+.welcome {
+        font-family: ACES04_Heavy;
+        font-size: 1.5em;
+        background-color:  darkblue;
+        margin-top: 250px;
+        margin-right: 300px;
+        margin-left: 610px;
+        padding: 15px;
+        width: 32%;
+        border-style: solid;
+        border-width: 2px;
+        border-left-width: 2px;
+        border-right-width: 2px;
+        border-color: darkcyan;
+}
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: deepskyblue;
+    opacity: 70%;
+    border-style: dotted;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: aqua;
+}
+        h1 {
+            color: white;
+        }
+a:link {
+    color:aqua
+}
+
+a:visited {
+    color:aquamarine
+}
+</style>
