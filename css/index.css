@@ -1,5 +1,7 @@
 <style>
 background-image:url("assets/media/blackmesa.webp");
+background-size: cover;
+background-attachment: fixed;
 @font-face {
     font-family: 'ACES04';
     src: url("assets/font/ACES04.ttf")
