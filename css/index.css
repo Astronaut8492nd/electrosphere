@@ -1,53 +1,63 @@
 <style>
 
 @font-face {
-    font-family: 'ACES04';
-    src: url("assets/font/ACES04.ttf")
+    font-family: 'aces04';
+    src: url("../../assets/font/ACES04.ttf")
 }
 @font-face {
-    font-family: 'ACES04_Heavy';
-    src: url("assets/font/ACES04_Heavy.ttf")
+    font-family: 'aces04_heavy';
+    src: url("../../assets/font/ACES04_Heavy.ttf")
 }
 @font-face {
-    font-family: 'ACES07_Regular';
-    src: url("assets/font/ACES07_Regular.ttf")
+    font-family: 'aces07';
+    src: url("../../assets/font/ACES07_Regular.ttf")
 }
 @font-face {
-    font-family: 'FlowBlock-Regular';
-    src: url("assets/font/FlowBlock-Regular.ttf")
+    font-family: '40';
+    src: url(../../assets/font/RebelTypeDog-Regular.otf)
+}
+@font-face {
+    font-family: 'vxrocket-half';
+    src: url(../../assets/font/vx_rocket_grad/vxrockethalf1_1.ttf)
+}
+@font-face {
+    font-family 'machinepro';
+    src: url(../../assets/font/MachinePro.otf)
+}
+@font-face {
+    font-family: 'interstate-bold';
+    src: url(../../assets/font/Interstate-Bold.ttf)
+}
+@font-face {
+    font-family: 'plex';
+    src: url(../../assets/font/Plexiglass.ttf)
+}
+@font-face {
+    font-family: 'block';
+    src: url("../../assets/font/FlowBlock-Regular.ttf")
+}
+.ds2 {
+    font-family: 40;
 }
 .start {
-        position: fixed;
-        font-family: ACES04_Heavy;
-        font-size: 1.5em;
-        background-color: darkblue;
-        margin-top: 10px;
-        margin-right: 300px;
-        margin-bottom: 300px;
-        margin-left: 700px;
+        font-family: block;
+        width: 300px;
+        height: 100px;
         padding: 15px;
-        width: 22%;
-        border-style: solid;
-        border-width: 2px;
-        border-left-width: 2px;
-        border-right-width: 2px;
-        border-color: darkcyan;
+        border: 5px solid orange;
+        border-radius: 5px;
+        box-sizing: border-box;
 }
 .welcome {
-        font-family: FlowBlock-Regular;
-        position: fixed;
-        font-size: 1em;
-        background-color: beige;
-        bottom: 400px;
-        left: 500px;
-        width: 35%;
-        height: 25%;
-        padding: 10px;
-        border-style: solid;
-        border-width: 2px;
-        border-left-width: 2px;
-        border-right-width: 2px;
-        border-color: coral;
+        font-family: ACES04_Heavy;
+        font-weight: normal;
+        font-style: normal;
+        width: 600px;
+        height: 100px;
+        padding: 5px;
+        border: 5px solid orange;
+        border-radius: 5px;
+        box-sizing: border-box;
 }
 #ds {
     position: fixed;
