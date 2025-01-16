@@ -1,27 +1,23 @@
-<!Doctype html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en-US">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Electrosphere</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    
     <body>
-        <style>
-        html {
-    background-image:url("assets/media/blackmesa.webp");
-            background-size: cover;
-            background-attachment: fixed;
-        }
-        </style>
-        <head>
-		    <meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-            <title>The Electrosphere</title>
-            <link rel="stylesheet" href="index.css">
-        <script>
-            var audio = document.querySelector("audio");
-            audio.play();
-        </script>
-        </head>
+        <h1 class="welcome" style="text-align:center"><div id="ac3">Booting up<br>Data Swallow<br>------<br>GR Auth Token Not Found!<br>Contact Nearest Monitor</div></h1>
         
-        <h1 class="welcome" style="text-align:center">- - - <div id="ac3">Booting up<br>Data Swallow<br>------<br>GR Auth Token Not Found!<br>Contact Nearest Monitor</h1>
+        <h1 class="start" style="text-align:center"><a href="rsnew.html">始める</a></h1>
         
-        <h1 class="start" style="text-align:center"><a href="rsnew.html">ENTER ELECTROSPHERE</a></h1>
-          
+        <script src="js/index.js"></script>
+        
+        <audio id="myAudio" autoplay muted>
+        <source src="assets/sound/ace3_menu_start.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
     </body>
+    
 </html>
