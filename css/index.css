@@ -1,9 +1,5 @@
 <style>
 
-* {
-  box-sizing: border-box;
-}
-
 @font-face {
     font-family: 'aces04';
     src: url("../../neocities-electrosphere/assets/font/ACES04.ttf")
@@ -14,6 +10,7 @@
 }
 @font-face {
     font-family: 'aces07';
+    font-family: 'ACES07_Regular';
     src: url("../../neocities-electrosphere/assets/font/ACES07_Regular.ttf")
 }
 @font-face {
