@@ -12,7 +12,12 @@
     font-family: 'ACES07_Regular';
     src: url("assets/font/ACES07_Regular.ttf")
 }
+@font-face {
+    font-family: 'FlowBlock-Regular';
+    src: url("assets/font/FlowBlock-Regular.ttf")
+}
 .start {
+        position: fixed;
         font-family: ACES04_Heavy;
         font-size: 1.5em;
         background-color: darkblue;
@@ -29,19 +34,29 @@
         border-color: darkcyan;
 }
 .welcome {
-        font-family: ACES04_Heavy;
-        font-size: 1.5em;
-        background-color:  darkblue;
-        margin-top: 250px;
-        margin-right: 300px;
-        margin-left: 610px;
-        padding: 15px;
-        width: 32%;
+        font-family: FlowBlock-Regular;
+        position: fixed;
+        font-size: 1em;
+        background-color: beige;
+        bottom: 400px;
+        left: 500px;
+        width: 35%;
+        height: 25%;
+        padding: 10px;
         border-style: solid;
         border-width: 2px;
         border-left-width: 2px;
         border-right-width: 2px;
-        border-color: darkcyan;
+        border-color: coral;
+}
+#ds {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
 a:hover {
     text-decoration: none;
@@ -55,7 +70,7 @@ a:hover {
     border-color: aqua;
 }
         h1 {
-            color: white;
+            color: coral;
         }
 a:link {
     color:aqua

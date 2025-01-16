@@ -2,28 +2,26 @@
 <html lang="en-US">
     
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, inital-scale=1.0">
         <title>Electrosphere</title>
         <link rel="stylesheet" href="css/index.css">
     </head>
     
-    <style>
-        background-image:url("assets/media/blackmesa.webp");
-        background-size: cover;
-        background-attachment: fixed;
-    </style>
-    
-    <body>
-        <h1 class="welcome" style="text-align:center"><div id="ac3">Booting up<br>Data Swallow<br>------<br>GR Auth Token Not Found!<br>Contact Nearest Monitor</div></h1>
+    <body> 
         
-        <h1 class="start" style="text-align:center"><a href="rsnew.html">始める</a></h1>
+        <script type="text/javascript" src="js/index.js"></script>
         
-        <script src="js/index.js"></script>
+        <div class=welcome>
+            <h1>DATA SWALLOW 40 START</h1>
+        </div>
         
-        <audio id="myAudio" autoplay muted>
-        <source src="assets/sound/ace3_menu_start.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
+        <div class="start">
+            <p><a href="rsnew.html">始める</a></p>
+        </div>
+        
+        <video autoplay muted loop id="ds">
+            <source src="assets/media/data_swallow.mp4" type="video/mp4" poster="assets/media/ds40gr.png">
+        </video>
     </body>
     
 </html>

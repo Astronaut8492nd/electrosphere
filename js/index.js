@@ -1,17 +1,23 @@
-const audio = document.getElementById("myAudio");
+const audioFiles = [
+  'assets/sound/ace3_menu_start.mp3',
+  'assets/sound/linkage.mp3'
+];
 
-// Attempt to play the audio immediately 
-// (might not work due to browser restrictions)
-audio.play().catch(error => {
-  console.error("Autoplay failed:", error);
+function playAudioSequentially() {
+  let currentAudioIndex = 0;
 
-  // Implement a user interaction to trigger playback
-  const playButton = document.createElement("button");
-  playButton.textContent = "Play Audio";
-  playButton.addEventListener("click", () => {
-    audio.muted = false; // Unmute the audio
-    audio.play();
-    playButton.remove(); // Remove the button after playback starts
-  });
-  document.body.appendChild(playButton);
-});
+  function playNext() {
+    if (currentAudioIndex < audioFiles.length) {
+      const audio = new Audio(audioFiles[currentAudioIndex]);
+      audio.onended = () => {
+        currentAudioIndex++;
+        playNext();
+      };
+      audio.play();
+    }
+  }
+
+  playNext();
+}
+
+playAudioSequentially();
