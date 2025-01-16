@@ -1,60 +1,94 @@
 <style>
 
+* {
+  box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'aces04';
-    src: url("../../assets/font/ACES04.ttf")
+    src: url("../../neocities-electrosphere/assets/font/ACES04.ttf")
 }
 @font-face {
     font-family: 'aces04_heavy';
-    src: url("../../assets/font/ACES04_Heavy.ttf")
+    src: url("../../neocities-electrosphere/assets/font/ACES04_Heavy.ttf")
 }
 @font-face {
     font-family: 'aces07';
-    src: url("../../assets/font/ACES07_Regular.ttf")
+    src: url("../../neocities-electrosphere/assets/font/ACES07_Regular.ttf")
 }
 @font-face {
     font-family: '40';
-    src: url(../../assets/font/RebelTypeDog-Regular.otf)
+    src: url(../../neocities-electrosphere/assets/font/RebelTypeDog-Regular.otf)
 }
 @font-face {
-    font-family: 'vxrocket-half';
-    src: url(../../assets/font/vx_rocket_grad/vxrockethalf1_1.ttf)
-}
-@font-face {
-    font-family 'machinepro';
-    src: url(../../assets/font/MachinePro.otf)
+    font-family: 'vxrockethalf';
+    src: url(../../neocities-electrosphere/assets/font/vx_rocket_grad/vxrockethalf1_1.ttf)
 }
 @font-face {
     font-family: 'interstate-bold';
-    src: url(../../assets/font/Interstate-Bold.ttf)
+    src: url(../../neocities-electrosphere/assets/font/Interstate-Bold.ttf)
+}
+@font-face {
+    font-family: 'machinepro';
+    src: url(../../neocities-electrosphere/assets/font/MachinePro.otf)
 }
 @font-face {
     font-family: 'plex';
-    src: url(../../assets/font/Plexiglass.ttf)
+    src: url(../../neocities-electrosphere/assets/font/Plexiglass.ttf)
+}
+@font-face {
+    font-family: 'hack-bold';
+    src: url(../../neocities-electrosphere/assets/font/Hack-Bold.ttf)
 }
 @font-face {
     font-family: 'block';
-    src: url("../../assets/font/FlowBlock-Regular.ttf")
+    src: url(../../neocities-electrosphere/assets/font/FlowBlock-Regular.ttf)
 }
+
 .ds2 {
-    font-family: 40;
+    font-family: '40';
+    font-size: 1.4em;
+    color: azure;
 }
 .start {
-        font-family: block;
-        width: 300px;
-        height: 100px;
-        padding: 15px;
+        margin: auto;
+        margin-top: 25%;
+        text-align: center;
+        background-color: dimgrey;
+        font-family: 'hack-bold';
+        font-size: 1.4em;
+        width: 35%;
+        height: auto;
+        padding: 1px;
         border: 5px solid orange;
         border-radius: 5px;
         box-sizing: border-box;
 }
+.content {
+    color: white;
+    float: left;
+    text-align: center;
+    background-color: black;
+    font-family: 'hack-bold';
+    width: 23%;
+    padding: 1px;
+    border: 5px solid orange;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.start2 {
+    font-family: 'block';
+    font-size: 1.4em;
+    color: orange;
+}
 .welcome {
-        font-family: ACES04_Heavy;
-        font-weight: normal;
-        font-style: normal;
-        width: 600px;
-        height: 100px;
-        padding: 5px;
+        text-align: center;
+        font-size: 1.3em;
+        background-color: black;
+        font-family: 'interstate-bold';
+        width: 100%;
+        height: auto;
+        padding: 10px;
         border: 5px solid orange;
         border-radius: 5px;
         box-sizing: border-box;
@@ -68,6 +102,7 @@
     min-height: 100%;
     z-index: -1;
 }
+
 a:hover {
     text-decoration: none;
     color: blue;
