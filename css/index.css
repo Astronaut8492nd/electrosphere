@@ -2,44 +2,44 @@
 
 @font-face {
     font-family: 'aces04';
-    src: url("../../neocities-electrosphere/assets/font/ACES04.ttf")
+    src: url("../../electrosphere/assets/font/ACES04.ttf")
 }
 @font-face {
     font-family: 'aces04_heavy';
-    src: url("../../neocities-electrosphere/assets/font/ACES04_Heavy.ttf")
+    src: url("../../electrosphere/assets/font/ACES04_Heavy.ttf")
 }
 @font-face {
     font-family: 'aces07';
     font-family: 'ACES07_Regular';
-    src: url("../../neocities-electrosphere/assets/font/ACES07_Regular.ttf")
+    src: url("../../electrosphere/assets/font/ACES07_Regular.ttf")
 }
 @font-face {
     font-family: '40';
-    src: url(../../neocities-electrosphere/assets/font/RebelTypeDog-Regular.otf)
+    src: url(../../electrosphere/assets/font/RebelTypeDog-Regular.otf)
 }
 @font-face {
     font-family: 'vxrockethalf';
-    src: url(../../neocities-electrosphere/assets/font/vx_rocket_grad/vxrockethalf1_1.ttf)
+    src: url(../../electrosphere/assets/font/vx_rocket_grad/vxrockethalf1_1.ttf)
 }
 @font-face {
     font-family: 'interstate-bold';
-    src: url(../../neocities-electrosphere/assets/font/Interstate-Bold.ttf)
+    src: url(../../electrosphere/assets/font/Interstate-Bold.ttf)
 }
 @font-face {
     font-family: 'machinepro';
-    src: url(../../neocities-electrosphere/assets/font/MachinePro.otf)
+    src: url(../../electrosphere/assets/font/MachinePro.otf)
 }
 @font-face {
     font-family: 'plex';
-    src: url(../../neocities-electrosphere/assets/font/Plexiglass.ttf)
+    src: url(../../electrosphere/assets/font/Plexiglass.ttf)
 }
 @font-face {
     font-family: 'hack-bold';
-    src: url(../../neocities-electrosphere/assets/font/Hack-Bold.ttf)
+    src: url(../../electrosphere/assets/font/Hack-Bold.ttf)
 }
 @font-face {
     font-family: 'block';
-    src: url(../../neocities-electrosphere/assets/font/FlowBlock-Regular.ttf)
+    src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf)
 }
 
 .ds2 {

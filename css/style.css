@@ -1,22 +1,51 @@
 <style> 
 
 @font-face {
-    font-family: 'ACES04';
-    src: url("../../neocities-electrosphere/assets/font/ACES04.ttf")
+    font-family: 'aces04';
+    src: url("../../electrosphere/assets/font/ACES04.ttf")
 }
 @font-face {
-    font-family: "ACES04_Heavy";
-    src: url("../../neocities-electrosphere/assets/font/ACES04_Heavy.ttf")
+    font-family: 'aces04_heavy';
+    src: url("../../electrosphere/assets/font/ACES04_Heavy.ttf")
 }
 @font-face {
+    font-family: 'aces07';
     font-family: 'ACES07_Regular';
-    src: url("../../neocities-electrosphere/assets/font/ACES07_Regular.ttf")
+    src: url("../../electrosphere/assets/font/ACES07_Regular.ttf")
+}
+@font-face {
+    font-family: '40';
+    src: url(../../electrosphere/assets/font/RebelTypeDog-Regular.otf)
+}
+@font-face {
+    font-family: 'vxrockethalf';
+    src: url(../../electrosphere/assets/font/vx_rocket_grad/vxrockethalf1_1.ttf)
+}
+@font-face {
+    font-family: 'interstate-bold';
+    src: url(../../electrosphere/assets/font/Interstate-Bold.ttf)
+}
+@font-face {
+    font-family: 'machinepro';
+    src: url(../../electrosphere/assets/font/MachinePro.otf)
+}
+@font-face {
+    font-family: 'plex';
+    src: url(../../electrosphere/assets/font/Plexiglass.ttf)
+}
+@font-face {
+    font-family: 'hack-bold';
+    src: url(../../electrosphere/assets/font/Hack-Bold.ttf)
+}
+@font-face {
+    font-family: 'block';
+    src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf)
 }
 body {
     background: url(as) top right;
 }
 .ce {
-    font-family: ACES07_Regular;
+    font-family: aces07;
     font-size: 1.5em;
     background-color: darkblue;
     margin-top: 10px;
@@ -41,7 +70,7 @@ body {
     z-index: -1;
 }
 .zm {
-    font-family: ACES07_Regular;
+    font-family: aces07;
     font-size: 1.5em;
     background-color: darkblue;
     margin-top: 10px;
@@ -57,7 +86,7 @@ body {
     border-color: darkcyan;
 }
 p.jam {
-    font-family: ACES07_Regular;
+    font-family: aces07;
     color: navajowhite;
     font-size: 1em;
     background-color: rebeccapurple;
@@ -72,7 +101,7 @@ p.jam {
     border-color: black;
 }
 h1.title {
-        font-family: ACES04_Heavy;
+        font-family: aces04_heavy;
         margin-top: 5px;
         margin-right: 5px;
         margin-bottom: 5px;
