@@ -42,11 +42,6 @@
     src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf)
 }
 
-{ 
-background-image: url(assets/media/town.jpg);
-background-repeat:no-repeat;
-background-position:center; 
-}
 
 .ce {
     font-family: aces07;
