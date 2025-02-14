@@ -41,8 +41,10 @@
     font-family: 'block';
     src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf)
 }
-body {
-    background: url(as) top right;
+{ 
+background-image: url(../../electrosphere/assets/media/town.jpg);
+background-repeat:no-repeat;
+background-position:center; 
 }
 .ce {
     font-family: aces07;
