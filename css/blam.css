@@ -1,0 +1,75 @@
+<style>
+
+@font-face {
+    font-family: 'aces04';
+    src: url("../../electrosphere/assets/font/ACES04.ttf")
+}
+@font-face {
+    font-family: 'aces04_heavy';
+    src: url("../../electrosphere/assets/font/ACES04_Heavy.ttf")
+}
+@font-face {
+    font-family: 'aces07';
+    font-family: 'ACES07_Regular';
+    src: url("../../electrosphere/assets/font/ACES07_Regular.ttf")
+}
+@font-face {
+    font-family: '40';
+    src: url(../../electrosphere/assets/font/RebelTypeDog-Regular.otf)
+}
+@font-face {
+    font-family: 'vxrockethalf';
+    src: url(../../electrosphere/assets/font/vx_rocket_grad/vxrockethalf1_1.ttf)
+}
+@font-face {
+    font-family: 'interstate-bold';
+    src: url(../../electrosphere/assets/font/Interstate-Bold.ttf)
+}
+@font-face {
+    font-family: 'machinepro';
+    src: url(../../electrosphere/assets/font/MachinePro.otf)
+}
+@font-face {
+    font-family: 'plex';
+    src: url(../../electrosphere/assets/font/Plexiglass.ttf)
+}
+@font-face {
+    font-family: 'hack-bold';
+    src: url(../../electrosphere/assets/font/Hack-Bold.ttf)
+}
+@font-face {
+    font-family: 'block';
+    src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf)
+}
+body {
+    background: url(as) top right;
+}
+
+.ce {
+    font-family: aces07;
+    font-size: 1.5em;
+    background-color: darkblue;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 24%;
+    border-style: solid;
+    border-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-color: darkcyan;
+}
+
+#ds {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+</style>
