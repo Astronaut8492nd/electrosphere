@@ -1,0 +1,113 @@
+Assault Rifle - MA5C ICWS
+Gas operated, fully-automatic projectile rifle capable of sustained continuous fire. Accurate if used in short, well aimed bursts and otherwise ferociously powerful at close range.
+
+Melee
+Somebody smashed somebody!
+
+Battle Rifle - BR55HB SR
+The UNSC’s accurate semi-automatic medium range rifle, fires three rounds per squeeze of the trigger.
+
+Sniper Rifle - SRS 99D AM
+The primary sniper rifle system used by UNSC forces.
+
+Energy Sword - (Type-1 EW/S)
+Favored by Elites, this energy weapon is more dangerous than its ceremonial nature implies.
+
+Chopper - (Type-25 RAV)
+Primarily Brute crewed reconnaissance and fast attack vehicle.
+
+Rocket Launcher - M41 MAV/AW
+The accurate, destructive heavy ordinance weapon of the UNSC arsenal.
+
+Banshee - (Type-26 GSA)
+Primary ground support aircraft of the Covenant forces.
+
+Guardians
+Killed, once again, by the guardians.
+
+Heavy Machine Gun - AIE-486H
+A Spartan is easily strong enough to remove, or more accurately, rip a turret-mounted machine gun from its tripod base. Although doing so will detach it from its main ammo feed, a Spartan can use whatever’s left attached to the gun to devastating effect. It’s heavy even for a Spartan, and slow to spin up to full firing rate.
+
+Frag Grenade - M9 HE-DP
+Standard issue UNSC fragmentation grenade.
+
+Spike Grenade - (Type-2 AP-FG)
+A new grenade for the Spartan arsenal is the requisitioned Brute Spike grenade, a primitive and deadly explosive device that impales any target and holds tight until it explodes in a shredding hail of razor sharp metal.
+
+Plasma Grenade - (Type-1 AP-G)
+Highly explosive Covenant grenade with a dangerous adherence property.
+
+Needler - (Type-33 GML)
+Razor sharp crystalline projectiles with a combined explosive property, are fired from this elaborate Covenant weapon.
+
+Spartan Laser - WAV M6 GGNR
+A directed energy weapon. Its battery conservation scheme requires user to “paint” its target during a brief charge lag. A zoomed scope will assist in aiming. It’s slow, but one of the most powerful portable armaments in the UNSC arsenal.
+
+Shotgun - M90A CAWS
+The UNSC’s resident close-quarters assault weapon.
+
+Elephant - M41 LAAG
+The M41 light anti-aircraft gun is an externally powered, three-barreled, rotary-fire machine gun. Though inaccurate at long ranges, it has excellent penetration characteristics and a high rate of fire.
+
+Ghost - (Type-32 RAV)
+Armed with twin rapid fire plasma cannons, this is a typical Covenant ground assault and recon vehicle.
+
+Missile Pod - LAU-65D
+Although technically designed for vehicle or stationary use, a Spartan can easily lift and use this rapid firing homing missile launcher.
+
+Warthog - Driver
+The ubiquitous Warthog - three thousand kilos of fuel-injected balistic polycarbonate, titanium, and carbon nanotube.
+
+Explosion
+WUH-BLAM!
+
+Warthog - M41 LAAG
+The M41 light anti-aircraft gun is an externally powered, three-barreled, rotary-fire machine gun. Though inaccurate at long ranges, it has excellent penetration characteristics and a high rate of fire.
+
+Tripmine - TR/9 AP Mine
+A simple proximity mine that reacts to pressure or movement.
+
+Carbine - (Type-51 Carbine)
+An unusual Covenant projectile weapon, firing shielded radioactive rounds.
+
+Brute Shot - (Type-25 GL)
+Fires explosive projectiles and is furnished with an elaborate and dangerous bayonet.
+
+Gravity Hammer - (Type-2 Energy Weapon/Hammer)
+Favored by Brutes, this weapon is as much a symbol of leadership as it is a weapon.
+
+Mongoose - M274 ULATV
+This is purely a transport vehicle, and while fast and maneuverable, it possesses no defensive or offensive capabilities whatsoever.
+
+Ball - Cranium.
+Standard issue information storage and sensory group housing.
+
+Mauler - (Type-52 Pistol)
+Holds 5 shells per magazine, this massive handgun is favored by Brutes and is based on their native, pre-Covenant technology.
+
+Sub Machine Gun - M7/Caseless
+Submachine guns, while not accurate over long distances, are particularly effective at close quarters.
+
+FlameThrower - M7057 DP
+The M7057 is a standard chemical flamethrower, which projects and ignites a stream of volatile, semi-liquid fuel.
+
+Bomb - No. 14 Anti-tank Mine
+Thus I refute thee.
+
+Flag
+It's right next to the headlight fluid.
+
+Plasma Rifle - (Type-25 DER)
+A common, light plasma weapon favored by Covenant forces.
+
+Beam Rifle - (Type-50 SR)
+A hand carried Covenant particle beam weapon, with an adjustable 5x / 10x scope.
+
+Plasma Pistol - (Type-25 DEP)
+Fires directed energy bolts with a shield-depleting Overcharge function.
+
+Magnum - M6G Pistol
+A recoil-operated, semi-automatic handgun. Accurate and utilitarian in design, it is the ideal sidearm for a wide variety of troops.
+
+Classified
+I'm calling my lawyer!

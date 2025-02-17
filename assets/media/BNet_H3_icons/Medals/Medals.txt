@@ -1,0 +1,197 @@
+Perfection!
+Win a Slayer game without dying with at least 15 kills.
+
+Extermination!
+Wipe out an enemy team with at least an overkill.
+
+Invincible!
+Kill 30 opponents in a row without dying.
+
+Killionaire!
+Kill 10 opponents within 4 seconds of each other.
+
+----------
+
+Killing Spree!
+Kill 5 opponents in a row without dying.
+
+Killing Frenzy!
+Kill 10 opponents in a row without dying.
+
+Running Riot!
+Kill 15 opponents in a row without dying.
+
+Rampage!
+Kill 20 opponents in a row without dying.
+
+Untouchable!
+Kill 25 opponents in a row without dying.
+
+----------
+
+Shotgun Spree!
+Kill 5 opponents in a row with the shotgun without dying.
+
+Sword Spree!
+Kill 5 opponents in a row with the Energy Sword without dying.
+
+Sniper Spree!
+Kill 5 opponents in a row with a sniper weapon without dying.
+
+Splatter Spree!
+Splatter 5 opponents in a row using a vehicle without dying.
+
+Open Season!
+Kill 10 opponents in a row with the shotgun without dying.
+
+Slice ‘n Dice!
+Kill 10 opponents in a row with the Energy Sword without dying.
+
+Sharpshooter!
+Kill 10 opponents in a row with a sniper weapon without dying.
+
+Vehicular Manslaughter!
+Splatter 10 opponents in a row using a vehicle without dying.
+
+----------
+
+Double Kill!
+Kill 2 opponents within 4 seconds of each other.
+
+Triple Kill!
+Kill 3 opponents within 4 seconds of each other.
+
+Overkill!
+Kill 4 opponents within 4 seconds of each other.
+
+Killtacular!
+Kill 5 opponents within 4 seconds of each other.
+
+Killtrocity!
+Kill 6 opponents within 4 seconds of each other.
+
+Killimanjaro!
+Kill 7 opponents within 4 seconds of each other.
+
+Killtastrophe!
+Kill 8 opponents within 4 seconds of each other.
+
+Killapocalypse!
+Kill 9 opponents within 4 seconds of each other.
+
+----------
+
+Beat Down!
+Hit and kill an opponent with a melee attack.
+
+Assassin!
+Hit and kill an opponent with a melee attack from behind.
+
+Sniper Kill!
+Kill an opponent with a Sniper Rifle or the Beam Rifle.
+
+Grenade Stick!
+Kill an opponent by sticking them with a sticky or brute grenade.
+
+Laser Kill!
+Kill an opponent by using the Spartan Laser.
+
+Oddball Kill!
+Get a melee kill when holding the oddball.
+
+Flag Kill!
+Get a melee kill with the flag.
+
+Incineration!
+Kill an opponent with a flame-based weapon.
+
+----------
+
+Killjoy!
+End an opponent’s killing spree.
+
+Death from the Grave!
+Kill an opponent after you have died.
+
+Splatter!
+Hit and kill an opponent with your vehicle.
+
+Highjacker!
+Board a land-based vehicle by forcibly removing the opponent in it.
+
+Bulltrue!
+Kill an opponent that is in the act of a sword lunge.
+
+Wheelman!
+Be the driver of a vehicle when a passenger kills an opponent.
+
+Skyjacker!
+Board an aircraft by forcibly removing the opponent in it.
+
+----------
+
+Last Man Standing!
+Be the last human in an infection game.
+
+Killed Flag Carrier!
+Kill the opponent flag carrier in CTF.
+
+Flag Score!
+Score the flag in CTF.
+
+Killed Juggernaut!
+Kill the Juggernaut in a Juggernaut game.
+
+Killed VIP!
+Kill an opponent's VIP in a VIP game.
+
+Killed Bomb Carrier!
+Kill an opponent bomb carrier in Assault.
+
+Bomb Planted!
+Plant the bomb in Assault.
+
+----------
+
+Hail to the King!
+Kill 5 opponents in a row from inside the hill before it moves.
+
+Infection Spree!
+Kill 5 humans in a row as the zombie without dying.
+
+Zombie Killing Spree!
+Kill 5 zombies in a row as the human without dying.
+
+Juggernaut Spree!
+Kill 5 opponents in a row as the Juggernaut without 
+
+Mmmm Brains!
+Kill 10 humans in a row as the zombie without dying.
+
+Hell’s Janitor!
+Kill 10 zombies in a row as the human without dying.
+
+Unstoppable!
+Kill 10 opponents in a row as the Juggernaut without dying.
+
+----------
+
+Steaktacular!
+Luke owes you a steak dinner.
+
+Linktacular!
+Play in a matchmade game comprised of all Bungie.net users.
+
+----------
+
+Headshot!
+Kill an enemy with a headshot.
+
+Multi Kill!
+Score 3 or more kills within 1.5 seconds to earn a multiplier for all of them.
+
+Plasma Combo!
+Kill an enemy by blowing off a shield with the plasma pistol and then scoring a headshot.
+
+Super Detonation!
+Score a kill by filling an opponent with enough needles to cause a detonation.
