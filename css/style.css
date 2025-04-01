@@ -42,7 +42,7 @@
     src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf)
 }
 #ds { //background stuff
-	background-image:url("../../electrosphere/assets/media/meat.jpg");
+	background-image:url("../electrosphere/assets/media/meat.jpg");
 	background-size:cover;
 	bacground-attachment:fixed;
     z-index: -1;
@@ -89,7 +89,7 @@
     border-color: darkcyan;
 }
 p.jam {
-    font-family: aces07;
+    font-family: Interstate-Bold;
     color: navajowhite;
     font-size: 1em;
     background-color: rebeccapurple;
