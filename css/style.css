@@ -41,11 +41,15 @@
     font-family: 'block';
     src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf)
 }
-{ 
-background-image: url(../../electrosphere/assets/media/geoscape.png);
-background-repeat:no-repeat;
-background-position:center; 
-}
+#ds {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+} 
 .ce {
     font-family: interstate-bold;
     font-size: 1.5em;
