@@ -42,12 +42,9 @@
     src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf)
 }
 #ds {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    min-width: 100%;
-    min-height: 100%;
+	background-image:url(../../electrosphere/assets/media/meat.jpg);
+	background-size:cover;
+	bacground-attachment:fixed;
     z-index: -1;
 } 
 .ce {
