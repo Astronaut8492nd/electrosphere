@@ -23,7 +23,7 @@
 }
 @font-face {
     font-family: 'interstate-bold';
-    src: url(../../electrosphere/assets/font/Interstate-Bold.ttf)
+    src: url("../../electrosphere/assets/font/Interstate-Bold.ttf")
 }
 @font-face {
     font-family: 'machinepro';
@@ -41,8 +41,8 @@
     font-family: 'block';
     src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf)
 }
-#ds {
-	background-image:url(electrosphere/assets/media/ps2index.png);
+#ds { //background stuff
+	background-image:url("../../electrosphere/assets/media/ps2index.png");
 	background-size:cover;
 	bacground-attachment:fixed;
     z-index: -1;
