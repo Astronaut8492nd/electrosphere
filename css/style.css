@@ -42,7 +42,7 @@
     src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf)
 }
 #ds { //background stuff
-	background-image:url("../../electrosphere/assets/media/ps2index.png");
+	background-image:url("../../electrosphere/assets/media/meat.jpg");
 	background-size:cover;
 	bacground-attachment:fixed;
     z-index: -1;
