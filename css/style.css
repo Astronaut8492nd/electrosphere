@@ -42,7 +42,7 @@
     src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf);
 }
 body {
-	background-image: url("../../assets/media/town.jpg");
+	background-image: url(../../assets/media/town.jpg);
 .ce {
     font-family: interstate-bold;
     font-size: 1.5em;
