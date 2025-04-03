@@ -58,8 +58,6 @@
     border-color: darkcyan;
 }
 #ds {
-	background-image: url(../../assets/images/geoscape.png);
-	background-color: #e32727;
     position: fixed;
     right: 0;
     bottom: 0;
