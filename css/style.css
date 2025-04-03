@@ -57,6 +57,9 @@
     border-right-width: 2px;
     border-color: darkcyan;
 }
+body {
+	background-image: url(assets/images/geoscape.png);
+	background-color: #cccccc;
 #ds {
     position: fixed;
     right: 0;
