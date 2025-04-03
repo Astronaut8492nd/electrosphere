@@ -58,8 +58,8 @@
     border-color: darkcyan;
 }
 body {
-	background-image: url(assets/images/geoscape.png);
-	background-color: #cccccc;
+	background-image: url(../../assets/images/geoscape.png);
+	background-color: #e32727;
 #ds {
     position: fixed;
     right: 0;
