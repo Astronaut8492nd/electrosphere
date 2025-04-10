@@ -65,22 +65,6 @@
     border-right-width: 2px;
     border-color: darkcyan;
 }
-.zm {
-    font-family: aces07;
-    font-size: 1.5em;
-    background-color: darkblue;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 300px;
-    margin-left: 10px;
-    padding: 5px;
-    width: 24%;
-    border-style: solid;
-    border-width: 2px;
-    border-left-width: 2px;
-    border-right-width: 2px;
-    border-color: darkcyan;
-}
 p.jam {
     font-family: Hack-Bold;
     color: navajowhite;
