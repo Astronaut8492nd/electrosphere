@@ -50,6 +50,7 @@
     src: url("../../electrosphere/assets/font/HandelGothic-Regular.ttf");
 }
 #dir {
+	font-size: 3.5em;
 	border-left: 6px solid blue;
 	border-bottom: 6px solid blue;
 	width: 25%;
