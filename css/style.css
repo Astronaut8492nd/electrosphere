@@ -53,11 +53,13 @@
 	font-size: 2.5em;
 	border-left: 12px solid rgba(15, 47, 224, 1);
 	border-bottom: 9px solid rgba(15, 47, 224, 1);
+	border-radius: 5px;
 	width: 30%;
 }
 #portal {
 	border-left: 6px solid rgba(0, 82, 175, 0.9);
 	border-bottom: 6px solid rgba(0, 82, 175, 0.9);
+	border-radius: 5px;
 	width: 20%;
 }
 .ce {
