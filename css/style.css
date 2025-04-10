@@ -41,6 +41,14 @@
     font-family: 'block';
     src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf);
 }
+@font-face {
+    font-family: 'handelgo';
+    src: url("../../electrosphere/assets/font/HandelGo.ttf");
+}
+@font-face {
+    font-family: 'handelgothic';
+    src: url("../../electrosphere/assets/font/HandelGothic-Regular.ttf");
+}
 .ce {
     font-family: interstate-bold;
     font-size: 1.5em;
@@ -89,7 +97,7 @@ p.jam {
     border-color: black;
 }
 h1.title {
-        font-family: aces04_heavy;
+        font-family: handelgothic;
         margin-top: 5px;
         margin-right: 5px;
         margin-bottom: 5px;
