@@ -50,19 +50,14 @@
     src: url("../../electrosphere/assets/font/HandelGothic-Regular.ttf");
 }
 #dir {
-    font-family: interstate-bold;
-    font-size: 1.5em;
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+	border-left: 6px solid blue;
+	border-bottom: 6px solid blue;
+	width: 25%;
 }
 #portal {
-	font-family: block;
-	width: 250px;
-	border; 15px solid green;
-	padding: 50px;
-	margin: 20px;
+	border-left: 6px solid blue;
+	border-bottom: 6px solid blue;
+	width: 25%;
 }
 .ce {
     font-family: interstate-bold;
