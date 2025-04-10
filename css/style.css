@@ -57,6 +57,13 @@
     padding: 50px;
     margin: 20px;
 }
+#portal {
+	font-family: block;
+	width: 250px;
+	border; 15px solid green;
+	padding: 50px;
+	margin: 20px;
+}
 .ce {
     font-family: interstate-bold;
     font-size: 1.5em;
