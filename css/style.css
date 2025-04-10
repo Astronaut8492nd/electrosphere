@@ -90,11 +90,8 @@ h1.title {
         background-color: skyblue;
         padding: 15px;
         width: 96%;
-        border-style: rounded;
-        border-width: 2px;
-        border-left-width: 5px;
-        border-right-width: 5px;
-        border-color: cornflowerblue;
+        border: 2px cornflowerblue;
+        border-radius: 5px;
 }
         a {
             color:aquamarine;
