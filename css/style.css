@@ -85,7 +85,7 @@ p.jam {
     font-family: handelgo;
     color: navajowhite;
     font-size: 1em;
-    background-color: rgba (30, 159, 208, 0);
+    background-color: rgba (30, 159, 208, 0.5);
     margin-top: 5px;
     margin-right: 10px;
     margin-bottom: 5px;
