@@ -90,7 +90,7 @@ h1.title {
         background-color: skyblue;
         padding: 15px;
         width: 96%;
-        border-style: solid;
+        border-style: rounded;
         border-width: 2px;
         border-left-width: 5px;
         border-right-width: 5px;
