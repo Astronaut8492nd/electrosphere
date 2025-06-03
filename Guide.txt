@@ -1,5 +1,0 @@
-HTML
-
-CSS
-Border shorthands
-rounded borders

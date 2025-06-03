@@ -41,7 +41,14 @@
     font-family: 'block';
     src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf)
 }
-
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
 .ds2 {
     font-family: '40';
     font-size: 1.4em;
