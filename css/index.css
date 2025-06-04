@@ -19,7 +19,7 @@
 }
 @font-face {
     font-family: 'vxrockethalf';
-    src: url(../../electrosphere/assets/font/vx_rocket_grad/vxrockethalfital1_1.ttf)
+    src: url(../../electrosphere/assets/font/vx_rocket_grad/vxrockethalf1_1.ttf)
 }
 @font-face {
     font-family: 'interstate-bold';
@@ -94,7 +94,10 @@ h1 {
 h3 {
     font-family: hack-bold;
     color: #cfceb7;
-}
+    border-left: #1c89d1 dotted;
+    border-width: 2px;
+    border-radius: 6px;
+}   
 #nav {
     text-align: center;
 }
