@@ -1,4 +1,7 @@
-.div1 {
+<style>
+
+div.main {
     border: 4px solid rgba(36,164,55,0.5);
-    max-width: 20%;
 }
+
+<style>

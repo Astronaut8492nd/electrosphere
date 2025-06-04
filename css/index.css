@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: 'aces04_heavy';
-    src: url("../../electrosphere/assets/font/ACES04_Heavy.ttf")
+    src: url(../../electrosphere/assets/font/ACES04_Heavy.ttf)
 }
 @font-face {
     font-family: 'aces07';
@@ -41,86 +41,99 @@
     font-family: 'block';
     src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf)
 }
-.vl {
-  border-left: 6px solid green;
-  height: 500px;
-  position: absolute;
-  left: 50%;
-  margin-left: -3px;
-  top: 0;
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: ;
 }
-.ds2 {
-    font-family: '40';
-    font-size: 1.4em;
-    color: azure;
-}
-.start {
-        margin: auto;
-        margin-top: 25%;
-        text-align: center;
-        background-color: dimgrey;
-        font-family: 'hack-bold';
-        font-size: 1.4em;
-        width: 35%;
-        height: auto;
-        padding: 1px;
-        border: 5px solid orange;
-        border-radius: 5px;
-        box-sizing: border-box;
-}
-.content {
-    color: white;
-    float: left;
+.flex-container > div {
+    background-color: ;
+    width: 100px;
+    margin: 10px;
     text-align: center;
-    background-color: black;
-    font-family: 'hack-bold';
-    width: 30%;
-    padding: 1px;
-    border: 5px solid orange;
-    border-radius: 3px;
-    box-sizing: border-box;
+    line-height: 75px;
+    font-size: 30px;
 }
-.start2 {
-    font-family: 'block';
-    font-size: 1.4em;
-    color: orange;
+p.jam { /*Marquee stuff*/
+    font-family: hack-bold;
+    color: navajowhite;
+    font-size: 1em;
+    background-color: rgba(30, 159, 208, 0.5);
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 3.5px;
+    padding: 3px;
+    width: 97.56%;
+    border: 2px blue;
+    border-radius: 5px;
 }
-.welcome {
-        text-align: center;
-        font-size: 1.3em;
-        background-color: black;
-        font-family: 'interstate-bold';
-        width: 100%;
-        height: auto;
-        padding: 10px;
-        border: 5px solid orange;
+h2.title { /*Big title*/
+        color: rgb(80, 214, 255);
+        font-family: handelgothic;
+		font-size: 18;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        background-color: rgba(135, 207, 235, 0.5);
+        padding: 15px;
+        width: 96%;
+        border: 2px cornflowerblue;
         border-radius: 5px;
-        box-sizing: border-box;
-}
-#ds {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
 }
 
-a:hover {
-    text-decoration: none;
-    color: blue;
-    background-color: deepskyblue;
-    opacity: 70%;
-    border-style: dotted;
-    border-width: 3px;
-    border-left-width: 3px;
-    border-right-width: 3px;
-    border-color: aqua;
+h1 {
+    font-family: hack-bold;
+    color: rgb(80, 214, 255);
+    outline-width: 3px;
+    outline-style: dashed;
+    outline-color: #1C6EA4;
+    outline-offset: 5px;
 }
-        h1 {
-            color: coral;
-        }
+
+#nav {
+    text-align: center;
+}
+
+#splash {
+    position: relative;
+    margin: auto;
+    outline: 3px dotted rgba(28,110,164,0.54);
+    outline-offset: 5px;
+    width: 44%;
+    
+}
+#splashleft {
+    position: absolute;
+    float: left;
+    outline: 3px dotted rgba(28,110,164,0.54);
+    outline-offset: 5px;
+    width: 30%;
+    height: 500px;
+    top: -245px;
+    left: 5px;
+
+}
+#splashright {
+    text-align: right;
+    position: absolute;
+    float: right;
+    outline: 3px dotted rgba(28,110,164,0.54);
+    outline-offset: 5px;
+    width: 30%;
+    height: 500px;
+    top: -245px;
+    right: 5px;
+}
+#splashtwo {
+    position: relative;
+    margin: auto;
+    outline: 3px dotted rgba(28,110,164,0.54);
+    outline-offset: 5px;
+    width: 44%; 
+}
+
 a:link {
     color:aqua
 }
