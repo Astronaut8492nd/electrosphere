@@ -79,7 +79,7 @@ h2.title { /*Big title*/
         background-color: rgba(135, 207, 235, 0.5);
         padding: 15px;
         width: 96%;
-        border: 2px cornflowerblue;
+        border: 2px rgb(0, 0, 0);
         border-radius: 5px;
 }
 
