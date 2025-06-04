@@ -19,7 +19,7 @@
 }
 @font-face {
     font-family: 'vxrockethalf';
-    src: url(../../electrosphere/assets/font/vx_rocket_grad/vxrockethalf1_1.ttf)
+    src: url(../../electrosphere/assets/font/vx_rocket_grad/vxrockethalfital1_1.ttf)
 }
 @font-face {
     font-family: 'interstate-bold';
@@ -55,7 +55,7 @@
     font-size: 30px;
 }
 p.jam { /*Marquee stuff*/
-    font-family: hack-bold;
+    font-family: handelgothic;
     color: navajowhite;
     font-size: 1em;
     background-color: rgba(30, 159, 208, 0.5);
@@ -70,7 +70,7 @@ p.jam { /*Marquee stuff*/
 }
 h2.title { /*Big title*/
         color: rgb(80, 214, 255);
-        font-family: handelgothic;
+        font-family: vxrockethalf;
 		font-size: 18;
         margin-top: 5px;
         margin-right: 5px;
@@ -84,14 +84,17 @@ h2.title { /*Big title*/
 }
 
 h1 {
-    font-family: hack-bold;
+    font-family: aces04;
     color: rgb(80, 214, 255);
     outline-width: 3px;
     outline-style: dashed;
     outline-color: #1C6EA4;
     outline-offset: 5px;
 }
-
+h3 {
+    font-family: hack-bold;
+    color: #cfceb7;
+}
 #nav {
     text-align: center;
 }
@@ -110,7 +113,7 @@ h1 {
     outline: 3px dotted rgba(28,110,164,0.54);
     outline-offset: 5px;
     width: 30%;
-    height: 500px;
+    height: 750px;
     top: -245px;
     left: 5px;
 
@@ -122,7 +125,7 @@ h1 {
     outline: 3px dotted rgba(28,110,164,0.54);
     outline-offset: 5px;
     width: 30%;
-    height: 500px;
+    height: 750px;
     top: -245px;
     right: 5px;
 }
@@ -135,10 +138,10 @@ h1 {
 }
 
 a:link {
-    color:aqua
+    color:rgb(255, 208, 0)
 }
 
 a:visited {
-    color:aquamarine
+    color:rgb(255, 178, 127)
 }
 </style>
