@@ -70,7 +70,7 @@ p.jam { /*Marquee stuff*/
 }
 h2.title { /*Big title*/
         color: rgb(80, 214, 255);
-        font-family: vxrockethalf;
+        font-family: 40;
 		font-size: 18;
         margin-top: 5px;
         margin-right: 5px;
@@ -92,7 +92,7 @@ h1 {
     outline-offset: 5px;
 }
 h3 {
-    font-family: hack-bold;
+    font-family: plex;
     color: #cfceb7;
     border-left: #1c89d1 dotted;
     border-width: 2px;
