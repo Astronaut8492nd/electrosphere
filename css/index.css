@@ -48,11 +48,11 @@
 }
 @font-face {
 	font-family: 'BankGothicMediumBT;
-	src: url("../../electrosphere/assets/font/BankGothicMediumBT.ttf");
+	src: url(../../electrosphere/assets/font/BankGothicMediumBT.ttf);
 }
 @font-face {
 	font-family: 'BankGothic Bold;
-	src: url("../../electrosphere/assets/font/BankGothic Bold.ttf");
+	src: url(../../electrosphere/assets/font/BankGothic Bold.ttf);
 }
 .flex-container {
     display: flex;
