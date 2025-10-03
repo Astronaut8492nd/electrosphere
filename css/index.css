@@ -136,7 +136,7 @@ h4 {
 #splashleft {
     position: absolute;
     float: left;
-    outline: 3px solid rgba(28,110,164,0.54);
+    outline: 3px dotted rgba(28,110,164,0.54);
     outline-offset: 5px;
     width: 30%;
     height: 2000px;
