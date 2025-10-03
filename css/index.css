@@ -156,7 +156,17 @@ h3 {
     outline-offset: 5px;
     width: 44%; 
 }
-
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: deepskyblue;
+    opacity: 35%;
+    border-style: dotted;
+    border-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: aqua;
+}
 a:link {
     color:rgb(255, 208, 0)
 }
