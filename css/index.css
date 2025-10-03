@@ -50,7 +50,10 @@
     font-family: 'handelgothic';
     src: url("../../electrosphere/assets/font/HandelGothic-Regular.ttf");
 }
-
+@font-face {
+	font-family: 'BankGothicMediumBT;
+	src: url("../../electrosphere/assets/font/BankGothicMediumBT.ttf");
+}
 
 .flex-container {
     display: flex;
@@ -81,7 +84,7 @@ p.jam { /*Marquee stuff*/
 }
 h2.title { /*Big title*/
         color: rgb(80, 214, 255);
-        font-family: 40;
+        font-family: handelgothic;
 		font-size: 18;
         margin-top: 5px;
         margin-right: 5px;
@@ -95,15 +98,18 @@ h2.title { /*Big title*/
 }
 
 h1 {
-    font-family: aces04;
+    font-family: aces04_heavy;
     color: rgb(80, 214, 255);
     outline-width: 3px;
     outline-style: dashed;
     outline-color: #1C6EA4;
     outline-offset: 5px;
 }
+h2 {
+	font-family: handelgothic:
+	}
 h3 {
-    font-family: plex;
+    font-family: BankGothicMediumBT;
     color: #cfceb7;
     border-left: #1c89d1 dotted;
     border-width: 2px;
