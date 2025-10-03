@@ -15,10 +15,6 @@
     src: url("../../electrosphere/assets/font/ACES07_Regular.ttf");
 }
 @font-face {
-    font-family: '40';
-    src: url("../../electrosphere/assets/font/RebelTypeDog-Regular.otf");
-}
-@font-face {
     font-family: 'vxrockethalf';
     src: url("../../electrosphere/assets/font/vx_rocket_grad/vxrockethalf1_1.ttf");
 }
@@ -52,9 +48,13 @@
 }
 @font-face {
 	font-family: 'BankGothicMediumBT;
-	src: url("../../electrosphere/assets/font/BankGothicMediumBT.ttf");
+	src: url("../../electrosphere/assets/font/bank gothic medium bt.ttf");
 }
-
+}
+@font-face {
+	font-family: 'BankGothic Bold;
+	src: url("../../electrosphere/assets/font/BankGothic Bold.ttf");
+}
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
