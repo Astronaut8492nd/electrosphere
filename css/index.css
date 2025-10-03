@@ -129,6 +129,7 @@ h4 {
     outline: 3px dotted rgba(28,110,164,0.54);
     outline-offset: 5px;
     width: 44%;
+	background: rgba(28,110,164,0.18);
     
 }
 #splashleft {
