@@ -1,4 +1,4 @@
-<style> 
+0<style> 
 
 <!--Fonts-->
 
@@ -51,6 +51,11 @@
     font-family: 'handelgothic';
     src: url("../../electrosphere/assets/font/HandelGothic-Regular.ttf");
 }
+@font-face {
+	font-family: 'BankGothicMediumBT;
+	src: url("../../electrosphere/assets/font/BankGothicMediumBT.ttf");
+}
+
 -->
 #datacontent {
 
@@ -83,7 +88,7 @@
     border-color: darkcyan;
 }
 p.jam {
-    font-family: handelgo;
+    font-family: aces07;
     color: navajowhite;
     font-size: 1em;
     background-color: rgba(30, 159, 208, 0.5);
