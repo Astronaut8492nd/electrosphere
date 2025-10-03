@@ -48,15 +48,16 @@
 }
 @font-face {
 	font-family: 'BankGothicMediumBT';
-	src: url(../../electrosphere/assets/font/BankGothicMediumBT.ttf);
+	src: url("../../electrosphere/assets/font/BankGothicMediumBT.ttf");
 }
 @font-face {
 	font-family: 'BankGothic Bold';
-	src: url('../../electrosphere/assets/font/BankGothic Bold.ttf');
+	src: url("../../electrosphere/assets/font/BankGothic Bold.ttf");
 }
 @font=face {
 	font-family: 'Days1';
-	src: url('../../electrosphere/assets/font/DaysOne-Regular.ttf');
+	src: url("../../electrosphere/assets/font/DaysOne-Regular.ttf");
+}
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
