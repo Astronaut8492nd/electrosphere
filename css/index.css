@@ -48,8 +48,7 @@
 }
 @font-face {
 	font-family: 'BankGothicMediumBT;
-	src: url("../../electrosphere/assets/font/bank gothic medium bt.ttf");
-}
+	src: url("../../electrosphere/assets/font/BankGothicMediumBT.ttf");
 }
 @font-face {
 	font-family: 'BankGothic Bold;
@@ -115,7 +114,7 @@ h3 {
     border-width: 2px;
 }   
 h4 {
-	font-family: BankGothic Bold;
+	font-family: BankGothicMediumBT;
 	color: #cfceb7;
 	border-left: #1c89d1 solid;
     border-width: 2px;
