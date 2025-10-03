@@ -48,8 +48,7 @@
 }
 @font-face {
 	font-family: 'BankGothicMediumBT;
-	src: url("../../electrosphere/assets/font/bank gothic medium bt.ttf");
-}
+	src: url("../../electrosphere/assets/font/BankGothicMediumBT.ttf");
 }
 @font-face {
 	font-family: 'BankGothic Bold;
@@ -106,15 +105,20 @@ h1 {
     outline-offset: 5px;
 }
 h2 {
-	font-family: handelgothic:
+	font-family: handelgothic;
 	}
 h3 {
-    font-family: BankGothicMediumBT;
+    font-family: BankGothic Bold;
     color: #cfceb7;
-    border-left: #1c89d1 dotted;
+    border-left: #1c89d1 solid;
     border-width: 2px;
-    border-radius: 6px;
 }   
+h4 {
+	font-family: BankGothicMediumBT;
+	color: #cfceb7;
+	border-left: #1c89d1 solid;
+    border-width: 2px;
+}
 #nav {
     text-align: center;
 }
