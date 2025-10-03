@@ -114,17 +114,11 @@ h2 {
 h3 {
     font-family: BankGothic Bold;
     color: #cfceb7;
-    border-left: #1c89d1 solid;
-    border-width: 2px;
 }   
 h4 {
 	font-family: BankGothicMediumBT;
 	font-size: 1.75em;
 	color: #8CC3FF;
-	border-left: #FF423D solid;
-	border-bottom: FF423D solid;
-    border-width: 3px;
-	border-height: 2px;
 }
 #nav {
     text-align: center;
