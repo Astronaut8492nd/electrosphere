@@ -47,12 +47,16 @@
     src: url("../../electrosphere/assets/font/HandelGothic-Regular.ttf");
 }
 @font-face {
-	font-family: 'BankGothicMediumBT;
+	font-family: 'BankGothicMediumBT';
 	src: url("../../electrosphere/assets/font/BankGothicMediumBT.ttf");
 }
 @font-face {
-	font-family: 'BankGothic Bold;
+	font-family: 'BankGothic Bold';
 	src: url("../../electrosphere/assets/font/BankGothic Bold.ttf");
+}
+@font=face {
+	font-family: 'Days1';
+	src: url("../../electrosphere/assets/font/DaysOne-Regular.ttf");
 }
 .flex-container {
     display: flex;
@@ -110,14 +114,11 @@ h2 {
 h3 {
     font-family: BankGothic Bold;
     color: #cfceb7;
-    border-left: #1c89d1 solid;
-    border-width: 2px;
 }   
 h4 {
 	font-family: BankGothicMediumBT;
-	color: #cfceb7;
-	border-left: #1c89d1 solid;
-    border-width: 2px;
+	font-size: 1.75em;
+	color: #8CC3FF;
 }
 #nav {
     text-align: center;
@@ -129,6 +130,7 @@ h4 {
     outline: 3px dotted rgba(28,110,164,0.54);
     outline-offset: 5px;
     width: 44%;
+	background: rgba(28,110,164,0.30);
     
 }
 #splashleft {
@@ -140,7 +142,7 @@ h4 {
     height: 2000px;
     top: -245px;
     left: 5px;
-
+	background: rgba(28,110,164,0.30);
 }
 #splashright {
     text-align: right;
@@ -152,6 +154,7 @@ h4 {
     height: 2000px;
     top: -245px;
     right: 5px;
+	background: rgba(28,110,164,0.30);
 }
 #splashtwo {
     position: relative;
@@ -159,6 +162,7 @@ h4 {
     outline: 3px dotted rgba(28,110,164,0.54);
     outline-offset: 5px;
     width: 44%; 
+	background: rgba(28,110,164,0.30);
 }
 a:hover {
     text-decoration: none;
