@@ -7,7 +7,7 @@
         
         <title>electrosphere\blam!</title>
         
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/index.css">
 	  
 	    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 		
@@ -23,7 +23,7 @@
 	
 	<article>
 	
-		<h1 class="title" style="text-align: center">Cool music that I like</h1>
+		<h1 class="title" style="text-align: center">Astro's Blam! Engine Notes</h1>
 	
 	</article>
     
@@ -45,8 +45,27 @@
             
             <section class="ce">
                 
-                <h1>plac holder (sorry)<br>[usicing style.css]</h1>
+                <h1>Notes on Blam 2 (Halo 2 MCC)</h1>
+                <h2>Building .model tags </h2>
+                <section>
+                &ensp; from raw model, export collison, physics, and render models seperately.
+                &ensp; note: collision models must abide by the laws of halo's geometry (no open edges)
+                &ensp; note2: physics models in blender can be defined as [$geometryname]
+                &ensp; note3: render models are not bound by collision rules
+                </section>
 
+                <h2>Material Names</h2>
+                <section>Material names are derived from a shader tag of the same name.
+                &ensp; within shader_collections, you are able to define shader collections.
+                &ensp; e.g. [shader prefix] [dir of shader tags]
+                </section>
+
+                <h2>Shaders</h2>
+                <section>Shader tags determine textures within the game.
+                &ensp; Shader tags in Blam 2 use shader templates.
+                &ensp; I gotta experiment with these more
+                
+                </section>
                 <h1>>> >Back to <a href="exp.html">MAIN</a></h1>
                 
             </section>
