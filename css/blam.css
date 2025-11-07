@@ -1,73 +1,189 @@
 <style>
 
+
 @font-face {
     font-family: 'aces04';
-    src: url("../../electrosphere/assets/font/ACES04.ttf")
+    src: url("../../electrosphere/assets/font/ACES04.ttf");
 }
 @font-face {
     font-family: 'aces04_heavy';
-    src: url("../../electrosphere/assets/font/ACES04_Heavy.ttf")
+    src: url("../../electrosphere/assets/font/ACES04_Heavy.ttf");
 }
 @font-face {
     font-family: 'aces07';
     font-family: 'ACES07_Regular';
-    src: url("../../electrosphere/assets/font/ACES07_Regular.ttf")
-}
-@font-face {
-    font-family: '40';
-    src: url(../../electrosphere/assets/font/RebelTypeDog-Regular.otf)
+    src: url("../../electrosphere/assets/font/ACES07_Regular.ttf");
 }
 @font-face {
     font-family: 'vxrockethalf';
-    src: url(../../electrosphere/assets/font/vx_rocket_grad/vxrockethalf1_1.ttf)
+    src: url("../../electrosphere/assets/font/vx_rocket_grad/vxrockethalf1_1.ttf");
 }
 @font-face {
     font-family: 'interstate-bold';
-    src: url(../../electrosphere/assets/font/Interstate-Bold.ttf)
+    src: url("../../electrosphere/assets/font/Interstate-Bold.ttf");
 }
 @font-face {
     font-family: 'machinepro';
-    src: url(../../electrosphere/assets/font/MachinePro.otf)
+    src: url("../../electrosphere/assets/font/MachinePro.otf");
 }
 @font-face {
     font-family: 'plex';
-    src: url(../../electrosphere/assets/font/Plexiglass.ttf)
+    src: url("../../electrosphere/assets/font/Plexiglass.ttf");
 }
 @font-face {
     font-family: 'hack-bold';
-    src: url(../../electrosphere/assets/font/Hack-Bold.ttf)
+    src: url("../../electrosphere/assets/font/Hack-Bold.ttf");
 }
 @font-face {
     font-family: 'block';
-    src: url(../../electrosphere/assets/font/FlowBlock-Regular.ttf)
+    src: url("../../electrosphere/assets/font/FlowBlock-Regular.ttf");
 }
-
-
-.ce {
-    font-family: aces07;
-    font-size: 1.5em;
-    background-color: darkblue;
-    margin-top: 10px;
+@font-face {
+    font-family: 'handelgo';
+    src: url("../../electrosphere/assets/font/HandelGo.ttf");
+}
+@font-face {
+    font-family: 'handelgothic';
+    src: url("../../electrosphere/assets/font/HandelGothic-Regular.ttf");
+}
+@font-face {
+	font-family: 'BankGothicMediumBT';
+	src: url("../../electrosphere/assets/font/BankGothicMediumBT.ttf");
+}
+@font-face {
+	font-family: 'BankGothic Bold';
+	src: url("../../electrosphere/assets/font/BankGothic Bold.ttf");
+}
+@font=face {
+	font-family: 'Days1';
+	src: url("../../electrosphere/assets/font/DaysOne-Regular.ttf");
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: ;
+}
+.flex-container > div {
+    background-color: ;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+p.jam { /*Marquee stuff*/
+    font-family: handelgothic;
+    color: navajowhite;
+    font-size: 1em;
+    background-color: rgba(30, 159, 208, 0.5);
+    margin-top: 5px;
     margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    padding: 5px;
-    width: 24%;
-    border-style: solid;
-    border-width: 2px;
-    border-left-width: 2px;
-    border-right-width: 2px;
-    border-color: darkcyan;
+    margin-bottom: 5px;
+    margin-left: 3.5px;
+    padding: 3px;
+    width: 97.56%;
+    border: 2px blue;
+    border-radius: 5px;
+}
+h2.title { /*Astro's Blam! Engine Notes*/
+        color: rgb(203, 255, 80);
+        font-family: handelgothic;
+		font-size: 24;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        background-color: rgba(142, 135, 235, 0.5);
+        padding: 15px;
+        width: 96%;
+        border: 2px rgb(0, 0, 0);
+        border-radius: 5px;
+}
+p {
+    font-family: hack-bold;
+    color: rgb(255, 178, 127);
+}
+h1 {
+    font-family: aces04_heavy;
+    color: rgb(80, 214, 255);
+    outline-width: 3px;
+    outline-style: dashed;
+    outline-color: #1C6EA4;
+    outline-offset: 5px;
+}
+h2 {
+	font-family: handelgothic;
+    color: rgb(255, 178, 127)
+	}
+h3 {
+    font-family: BankGothic Bold;
+    color: #cfceb7;
+}   
+h4 {
+	font-family: BankGothicMediumBT;
+	font-size: 1.75em;
+	color: #8CC3FF;
+}
+#nav {
+    text-align: center;
 }
 
-#ds {
-    position: fixed;
-    right: 0;
-    bottom: 0;
+#splash {
+    position: relative;
     margin: auto;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
+    outline: 3px dotted rgba(28,110,164,0.54);
+    outline-offset: 5px;
+    width: 44%;
+	background: rgba(28,110,164,0.30);
+    
+}
+#splashleft {
+    position: absolute;
+    float: left;
+    outline: 3px dotted rgba(28,110,164,0.54);
+    outline-offset: 5px;
+    width: 30%;
+    height: 2000px;
+    top: -245px;
+    left: 5px;
+	background: rgba(28,110,164,0.30);
+}
+#splashright {
+    text-align: right;
+    position: absolute;
+    float: right;
+    outline: 3px dotted rgba(28,110,164,0.54);
+    outline-offset: 5px;
+    width: 30%;
+    height: 2000px;
+    top: -245px;
+    right: 5px;
+	background: rgba(28,110,164,0.30);
+}
+#splashtwo {
+    position: relative;
+    margin: auto;
+    outline: 3px dotted rgba(28,110,164,0.54);
+    outline-offset: 5px;
+    width: 44%; 
+	background: rgba(28,110,164,0.30);
+}
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: deepskyblue;
+    opacity: 35%;
+    border-style: dotted;
+    border-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: aqua;
+}
+a:link {
+    color:rgb(255, 208, 0)
 }
 
+a:visited {
+    color:rgb(255, 178, 127)
+}
 </style>

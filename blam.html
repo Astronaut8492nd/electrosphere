@@ -7,7 +7,7 @@
         
         <title>electrosphere\blam!</title>
         
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/blam.css">
 	  
 	    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 		
@@ -23,49 +23,47 @@
 	
 	<article>
 	
-		<h1 class="title" style="text-align: center">Astro's Blam! Engine Notes</h1>
+		<h2 class="title" style="text-align: center">Astro's Blam! Engine Notes</h2>
 	
 	</article>
     
-    <!--body>
+    <body>
         
         <audio autoplay loop id="lobby">
-            <source src="assets/sound/lobby.mp3">
+            <source src="assets/sound/Jewelled_Hull.mp3">
         </audio>
         
-        <video autoplay muted loop id="ds">
-            <source src="assets/media/2004.webm" type="video/mp4" poster="assets/media/ds40gr.png">
-        </video>
-        
-    </body-->
+    </body>
     
     <body>
         
         <article>
             
-            <section class="ce">
+            <section class="h2">
                 
-                <h1>Notes on Blam 2 (Halo 2 MCC)</h1>
+                <h1>Blam 2 (Halo 2 MCC)</h1>
                 <h2>Building .model tags </h2>
-                <section>
-                &ensp; from raw model, export collison, physics, and render models seperately.
-                &ensp; note: collision models must abide by the laws of halo's geometry (no open edges)
-                &ensp; note2: physics models in blender can be defined as [$geometryname]
-                &ensp; note3: render models are not bound by collision rules
-                </section>
+                <p> Model tags are made up of multiple _model tags.
+                <br> from raw model, export collison, physics, and render models seperately.
+                <br> note: collision models must abide by the laws of halo's geometry (no open edges)
+                <br> note2: physics models in blender can be defined as [$geometryname]
+                <br> note3: render models are not bound by collision rules
+                </p>
 
                 <h2>Material Names</h2>
-                <section>Material names are derived from a shader tag of the same name.
-                &ensp; within shader_collections, you are able to define shader collections.
-                &ensp; e.g. [shader prefix] [dir of shader tags]
-                </section>
+                <p>
+                    Material names are derived from a shader tag of the same name.
+                <br> within shader_collections, you are able to define shader collections.
+                <br> e.g. [shader prefix] [dir of shader tags]
+                </p>
 
                 <h2>Shaders</h2>
-                <section>Shader tags determine textures within the game.
-                &ensp; Shader tags in Blam 2 use shader templates.
-                &ensp; I gotta experiment with these more
+                <p>
+                    Shader tags determine textures within the game.
+                <br> Shader tags in Blam 2 use shader templates.
+                <br> I gotta experiment with these more
                 
-                </section>
+                </p>
                 <h1>>> >Back to <a href="exp.html">MAIN</a></h1>
                 
             </section>
