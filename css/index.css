@@ -88,7 +88,7 @@ p.jam { /*Marquee stuff*/
 h2.title { /*Big title*/
         color: rgb(80, 214, 255);
         font-family: handelgothic;
-		font-size: 24;
+		font-size: 12px;
         margin-top: 5px;
         margin-right: 5px;
         margin-bottom: 5px;
@@ -157,48 +157,58 @@ h4 {
 	background: rgba(28,110,164,0.30);
 }
 #splashtwo {
-    position: relative;
+    position: absolute;
     margin: auto;
     outline: 3px dotted rgba(28,110,164,0.54);
     outline-offset: 5px;
     width: 44%; 
 	background: rgba(28,110,164,0.30);
+    color:#3e8e41;
 }
-.dropdown-friendos {
-    position: relative;
+#astroo {
+    font-family: "interstate-bold";
+    color: #cfceb7;
+    border-color: rgb(33, 174, 199);
+    border: dotted;
+    background-color: #8cc4ff2f;
+    position: absolute;
+    margin: auto;
+    float: center;
+    left: 800px;
+    top: 767px;
 }
-.dropbtn-friendos {
+#media {
+    color: #cfceb7;
+    font-family: "BankGothic Bold";
+    font-size: 16px;
+    position: absolute;
+    margin: auto;
+    float: left;
+    left: -560px;
+    width: 565px;
+}
+.mods {
+    color: #cfceb7;
+    background-color: rgba(21, 255, 0, 0.171);
+    font-family: "BankGothic Bold";
+    padding: 8px;
+    font-size: 16px;
+    border: dotted;
+    border-color: rgb(33, 174, 199);
+}
+h1.mods {
+    color: red;
+}
+.friendos {
   border-color: #3663a7;
   background-color: #115569;
-  color: rgb(37, 138, 156);
+  color: #cfceb7;
   padding: 8px;
   font-size: 16px;
   border: dotted;
   cursor: pointer;
     font-family: "BankGothic Bold";
-}
-.dropdown-content-friendos {
-  display: none;
-  position: absolute;
-  background-color: rgba(28,110,164,0.54);
-  min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    font-family: "hack-bold";
-}
-.dropdown-content-friendos a{
-      color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-.dropdown-content-friendos a:hover {
-  background-color: #f1f1f1
-}
-.dropdown-friendos:hover .dropdown-content-friendos {
-    display: block;
-}
-.dropdown-friendos:hover .dropbtn-friendos {
-    background-color: #3e8e41;
+    opacity: 75%;
 }
 a:hover {
     text-decoration: none;
@@ -212,9 +222,11 @@ a:hover {
     border-color: aqua;
 }
 a:link {
-    color:rgb(255, 208, 0)
+    color:rgb(0, 141, 31)
 }
-
+a:hover {
+    border: dotted;
+}
 a:visited {
     color:rgb(255, 178, 127)
 }
