@@ -88,16 +88,18 @@ p.jam { /*Marquee stuff*/
 h2.title { /*Big title*/
         color: rgb(80, 214, 255);
         font-family: handelgothic;
+        font-weight:400;
 		font-size: 12px;
         margin-top: 5px;
         margin-right: 5px;
         margin-bottom: 5px;
         margin-left: 5px;
-        background-color: rgba(135, 207, 235, 0.5);
+        background-color: rgba(135, 207, 235, 0.199);
         padding: 15px;
         width: 96%;
         border: 2px rgb(0, 0, 0);
         border-radius: 5px;
+        animation: color-change-blueshift 4s infinite alternate;
 }
 
 h1 {
@@ -109,21 +111,57 @@ h1 {
     outline-offset: 5px;
 }
 h2 {
+    color: navajowhite;
 	font-family: handelgothic;
 	}
 h3 {
-    font-family: BankGothic Bold;
+    font-family: handelgothic;
     color: #cfceb7;
 }   
 h4 {
-	font-family: BankGothicMediumBT;
+	font-family: handelgothic;
 	font-size: 1.75em;
 	color: #8CC3FF;
+}
+p {
+    color: navajowhite;
+    font-family: handelgothic;
 }
 #nav {
     text-align: center;
 }
-
+.rgbshift {
+    font-family: handelgothic;
+    animation: color-change-rgb 4s infinite alternate;
+}
+@keyframes color-change-rgb {
+    0% {
+        color: rgb(255,0,0);
+    }
+    33% {
+        color:rgb(0,255,0);
+    }
+    66% {
+        color: rgb(0,0,255);
+    }
+    100% {
+        color:rgb(255,0,0);
+    }
+}
+@keyframes color-change-blueshift {
+        0% {
+        color: rgb(80, 214, 255);
+    }
+    33% {
+        color:rgb(0, 102, 255);
+    }
+    66% {
+        color: rgb(0, 4, 255);
+    }
+    100% {
+        color:rgb(80, 214, 255);
+    }
+}
 #splash {
     position: relative;
     margin: auto;
