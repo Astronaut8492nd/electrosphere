@@ -1,6 +1,4 @@
 <style>
-
-
 @font-face {
     font-family: 'aces04';
     src: url("../../electrosphere/assets/font/ACES04.ttf");
@@ -61,7 +59,6 @@
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    background-color: ;
 }
 .flex-container > div {
     background-color: ;
@@ -101,7 +98,6 @@ h2.title { /*Big title*/
         border-radius: 5px;
         animation: color-change-blueshift 4s infinite alternate;
 }
-
 h1 {
     font-family: aces04_heavy;
     color: rgb(80, 214, 255);
@@ -212,8 +208,8 @@ p {
     position: absolute;
     margin: auto;
     float: center;
-    left: 800px;
-    top: 767px;
+    left: 600px;
+    top: 500px;
 }
 #media {
     color: #cfceb7;
@@ -239,14 +235,14 @@ h1.mods {
 }
 .friendos {
   border-color: #3663a7;
-  background-color: #115569;
+  background-color:;
   color: #cfceb7;
   padding: 8px;
   font-size: 16px;
   border: dotted;
   cursor: pointer;
-    font-family: "BankGothic Bold";
-    opacity: 75%;
+  font-family: "BankGothic Bold";
+  opacity: 100%;
 }
 a:hover {
     text-decoration: none;
