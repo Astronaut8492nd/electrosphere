@@ -1,6 +1,5 @@
 <style>
 
-
 @font-face {
     font-family: 'aces04';
     src: url("../../electrosphere/assets/font/ACES04.ttf");
@@ -58,46 +57,14 @@
 	font-family: 'Days1';
 	src: url("../../electrosphere/assets/font/DaysOne-Regular.ttf");
 }
-.flex-container {
+
+body {
     display: flex;
-    flex-wrap: nowrap;
-    background-color: ;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
 }
-.flex-container > div {
-    background-color: ;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-p.jam { /*Marquee stuff*/
-    font-family: handelgothic;
-    color: navajowhite;
-    font-size: 1em;
-    background-color: rgba(30, 159, 208, 0.5);
-    margin-top: 5px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    margin-left: 3.5px;
-    padding: 3px;
-    width: 97.56%;
-    border: 2px blue;
-    border-radius: 5px;
-}
-h2.title { /*Astro's Blam! Engine Notes*/
-        color: rgb(203, 255, 80);
-        font-family: handelgothic;
-		font-size: 24;
-        margin-top: 5px;
-        margin-right: 5px;
-        margin-bottom: 5px;
-        margin-left: 5px;
-        background-color: rgba(142, 135, 235, 0.5);
-        padding: 15px;
-        width: 96%;
-        border: 2px rgb(0, 0, 0);
-        border-radius: 5px;
 }
 p {
     font-family: hack-bold;
@@ -125,49 +92,7 @@ h4 {
 	color: #8CC3FF;
 }
 #nav {
-    text-align: center;
-}
 
-#splash {
-    position: relative;
-    margin: auto;
-    outline: 3px dotted rgba(28,110,164,0.54);
-    outline-offset: 5px;
-    width: 44%;
-	background: rgba(28,110,164,0.30);
-    
-}
-#splashleft {
-    position: absolute;
-    float: left;
-    outline: 3px dotted rgba(28,110,164,0.54);
-    outline-offset: 5px;
-    width: 30%;
-    height: 2000px;
-    top: -245px;
-    left: 5px;
-	background: rgba(28,110,164,0.30);
-}
-#splashright {
-    text-align: right;
-    position: absolute;
-    float: right;
-    outline: 3px dotted rgba(28,110,164,0.54);
-    outline-offset: 5px;
-    width: 30%;
-    height: 2000px;
-    top: -245px;
-    right: 5px;
-	background: rgba(28,110,164,0.30);
-}
-#splashtwo {
-    position: relative;
-    margin: auto;
-    outline: 3px dotted rgba(28,110,164,0.54);
-    outline-offset: 5px;
-    width: 44%; 
-	background: rgba(28,110,164,0.30);
-}
 a:hover {
     text-decoration: none;
     color: blue;
