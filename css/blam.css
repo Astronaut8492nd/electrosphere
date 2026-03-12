@@ -63,8 +63,41 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    overflow: hidden;
+    overflow: hidden; /*hiding main viewer scrollbar*/
 }
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    height: 100%; /*sidebar height*/
+    overflow-y: auto; /*add vertical scrolling if sidebar content exceeds height*/
+}
+.sidebar h2 {
+    margin-top: 0;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar a {
+    color: green;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+.sidebar-main-content {
+    margin-left: 240px;
+    padding: 20px;
+    flex: 1; /*allows concent to occupy remainder space*/
+    overflow-y: auto;
+    height: 100vh;
+}
+.sidebar-p {
+    line-height: 1.5;
+    margin-bottom: 1em;
+    height: 200vh;
 }
 p {
     font-family: hack-bold;
