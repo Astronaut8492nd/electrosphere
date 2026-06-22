@@ -1,0 +1,278 @@
+<style>
+@font-face {
+    font-family: 'aces04';
+    src: url("../../electrosphere/assets/font/ACES04.ttf");
+}
+@font-face {
+    font-family: 'aces04_heavy';
+    src: url("../../electrosphere/assets/font/ACES04_Heavy.ttf");
+}
+@font-face {
+    font-family: 'aces07';
+    font-family: 'ACES07_Regular';
+    src: url("../../electrosphere/assets/font/ACES07_Regular.ttf");
+}
+@font-face {
+    font-family: 'vxrockethalf';
+    src: url("../../electrosphere/assets/font/vx_rocket_grad/vxrockethalf1_1.ttf");
+}
+@font-face {
+    font-family: 'interstate-bold';
+    src: url("../../electrosphere/assets/font/Interstate-Bold.ttf");
+}
+@font-face {
+    font-family: 'machinepro';
+    src: url("../../electrosphere/assets/font/MachinePro.otf");
+}
+@font-face {
+    font-family: 'plex';
+    src: url("../../electrosphere/assets/font/Plexiglass.ttf");
+}
+@font-face {
+    font-family: 'hack-bold';
+    src: url("../../electrosphere/assets/font/Hack-Bold.ttf");
+}
+@font-face {
+    font-family: 'block';
+    src: url("../../electrosphere/assets/font/FlowBlock-Regular.ttf");
+}
+@font-face {
+    font-family: 'handelgo';
+    src: url("../../electrosphere/assets/font/HandelGo.ttf");
+}
+@font-face {
+    font-family: 'handelgothic';
+    src: url("../../electrosphere/assets/font/HandelGothic-Regular.ttf");
+}
+@font-face {
+	font-family: 'BankGothicMediumBT';
+	src: url("../../electrosphere/assets/font/BankGothicMediumBT.ttf");
+}
+@font-face {
+	font-family: 'BankGothic Bold';
+	src: url("../../electrosphere/assets/font/BankGothic Bold.ttf");
+}
+@font=face {
+	font-family: 'Days1';
+	src: url("../../electrosphere/assets/font/DaysOne-Regular.ttf");
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-container > div {
+    background-color: ;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+p.jam { /*Marquee stuff*/
+    font-family: handelgothic;
+    color: navajowhite;
+    font-size: 1em;
+    background-color: rgba(30, 159, 208, 0.5);
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 3.5px;
+    padding: 3px;
+    width: 97.56%;
+    border: 2px blue;
+    border-radius: 5px;
+}
+h2.title { /*Big title*/
+        color: rgb(80, 214, 255);
+        font-family: handelgothic;
+        font-weight:400;
+		font-size: 12px;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        background-color: rgba(135, 207, 235, 0.199);
+        padding: 15px;
+        width: 96%;
+        border: 2px rgb(0, 0, 0);
+        border-radius: 5px;
+        animation: color-change-blueshift 4s infinite alternate;
+}
+h1 {
+    font-family: aces04_heavy;
+    color: rgb(80, 214, 255);
+    outline-width: 3px;
+    outline-style: dashed;
+    outline-color: #1C6EA4;
+    outline-offset: 5px;
+}
+h2 {
+    color: navajowhite;
+	font-family: handelgothic;
+	}
+h3 {
+    font-family: handelgothic;
+    color: #cfceb7;
+}   
+h4 {
+	font-family: handelgothic;
+	font-size: 1.75em;
+	color: #8CC3FF;
+}
+p {
+    color: navajowhite;
+    font-family: handelgothic;
+}
+#nav {
+    text-align: center;
+}
+.rgbshift {
+    font-family: handelgothic;
+    animation: color-change-rgb 4s infinite alternate;
+}
+@keyframes color-change-rgb {
+    0% {
+        color: rgb(255,0,0);
+    }
+    33% {
+        color:rgb(0,255,0);
+    }
+    66% {
+        color: rgb(0,0,255);
+    }
+    100% {
+        color:rgb(255,0,0);
+    }
+}
+@keyframes color-change-blueshift {
+        0% {
+        color: rgb(80, 214, 255);
+    }
+    33% {
+        color:rgb(0, 102, 255);
+    }
+    66% {
+        color: rgb(0, 4, 255);
+    }
+    100% {
+        color:rgb(80, 214, 255);
+    }
+}
+#splash {
+    position: relative;
+    margin: auto;
+    outline: 3px dotted rgba(28,110,164,0.54);
+    outline-offset: 5px;
+    width: 44%;
+	background: rgba(28,110,164,0.30);
+    
+}
+#splashleft {
+    position: absolute;
+    float: left;
+    outline: 3px dotted rgba(28,110,164,0.54);
+    outline-offset: 5px;
+    width: 30%;
+    height: 2000px;
+    top: -245px;
+    left: 5px;
+	background: rgba(28,110,164,0.30);
+}
+#splashright {
+    text-align: right;
+    position: absolute;
+    float: right;
+    outline: 3px dotted rgba(28,110,164,0.54);
+    outline-offset: 5px;
+    width: 30%;
+    height: 2000px;
+    top: -245px;
+    right: 5px;
+	background: rgba(28,110,164,0.30);
+}
+#splashcenter {
+    text-align: center;
+    position: absolute;
+    float: center;
+    outline: 3px dotted rgba(28,110,164,0.54);
+    width: 30%;
+    height: 2000px;
+    top: -245px;
+    right: 5px;
+	background: rgba(28,110,164,0.30);
+}
+#splashtwo {
+    position: absolute;
+    margin: auto;
+    outline: 3px dotted rgba(28,110,164,0.54);
+    outline-offset: 5px;
+    width: 44%; 
+	background: rgba(28,110,164,0.30);
+    color:#3e8e41;
+}
+#astro_island {
+    font-family: "interstate-bold";
+    color: #cfceb7;
+    border-color: rgb(33, 174, 199);
+    border: dotted;
+    background-color: #8cc4ff2f;
+    position: absolute;
+    margin: auto;
+    float: center;
+    left: 600px;
+    top: 500px;
+}
+#media {
+    color: #cfceb7;
+    font-family: "BankGothic Bold";
+    font-size: 16px;
+    position: absolute;
+    margin: auto;
+    float: left;
+    left: -560px;
+    width: 565px;
+}
+.mods {
+    color: #cfceb7;
+    background-color: rgba(21, 255, 0, 0.171);
+    font-family: "BankGothic Bold";
+    padding: 8px;
+    font-size: 16px;
+    border: dotted;
+    border-color: rgb(33, 174, 199);
+}
+h1.mods {
+    color: red;
+}
+.friendos {
+  border-color: #3663a7;
+  background-color:;
+  color: #cfceb7;
+  padding: 8px;
+  font-size: 16px;
+  border: dotted;
+  cursor: pointer;
+  font-family: "BankGothic Bold";
+  opacity: 100%;
+}
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: deepskyblue;
+    opacity: 35%;
+    border-style: dotted;
+    border-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: aqua;
+}
+a:link {
+    color:rgb(0, 141, 31)
+}
+a:hover {
+    border: dotted;
+}
+a:visited {
+    color:rgb(255, 178, 127)
+}
+</style>
