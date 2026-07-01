@@ -164,7 +164,7 @@ p {
     outline: 3px dotted rgba(28,110,164,0.54);
     outline-offset: 5px;
     width: 44%;
-	background: rgba(28,110,164,0.30);
+	background: rgba(0, 0, 0, 0.301);
     
 }
 #splashleft {
@@ -176,19 +176,19 @@ p {
     height: 2000px;
     top: -245px;
     left: 5px;
-	background: rgba(28,110,164,0.30);
+	background: rgba(0, 0, 0, 0.301);
 }
 #splashright {
     text-align: right;
     position: absolute;
     float: right;
-    outline: 3px dotted rgba(28,110,164,0.54);
+    outline: 3px dotted rgba(17, 65, 97, 0.54);
     outline-offset: 5px;
     width: 30%;
     height: 2000px;
     top: -245px;
     right: 5px;
-	background: rgba(28,110,164,0.30);
+	background: rgba(0, 0, 0, 0.301);
 }
 #splashcenter {
     text-align: center;
@@ -207,7 +207,7 @@ p {
     outline: 3px dotted rgba(28,110,164,0.54);
     outline-offset: 5px;
     width: 44%; 
-	background: rgba(28,110,164,0.30);
+	background: rgba(0, 0, 0, 0.301);
     color:#3e8e41;
 }
 #astro_island {
