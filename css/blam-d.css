@@ -108,10 +108,14 @@ h1 {
 h2 {
     color: navajowhite;
 	font-family: handelgothic;
+    margin-bottom: 0px;
+    margin-top: 0px;
 	}
 h3 {
     font-family: handelgothic;
     color: #cfceb7;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }   
 h4 {
 	font-family: handelgothic;
@@ -121,6 +125,8 @@ h4 {
 p {
     color: navajowhite;
     font-family: handelgothic;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 li {
     font-color:;
