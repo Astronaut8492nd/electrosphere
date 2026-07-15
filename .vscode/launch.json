@@ -5,11 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch index-EX.html",
+            "name": "Launch index.html",
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "file": "${workspaceFolder}/index-EX.html"
+            "file": "${workspaceFolder}/index.html"
         },
         {
             "name": "Launch index.html",
