@@ -139,6 +139,19 @@ li {
     font-family: handelgothic;
     animation: color-change-rgb 4s infinite alternate;
 }
+.blam3 {
+    font-size: 1.15em;
+    color: rgb(61, 185, 243);
+}
+.blam_material {
+    color: rgb(243, 61, 61);
+}
+.unyielding_GREEN {
+    color: rgb(0,141,31);
+}
+.PATHWAYSINTODARKNESS {
+    color: rgb(170, 6, 6);
+}
 @keyframes color-change-rgb {
     0% {
         color: rgb(255,0,0);
