@@ -287,12 +287,12 @@ a:hover {
     border-color: aqua;
 }
 a:link {
-    color:rgb(0, 89, 141);
+    color:rgb(54, 153, 211);
 }
 a:hover {
     border: dotted;
 }
 a:visited {
-    color:rgb(18, 25, 117);
+    color:rgb(90, 96, 178);
 }
 </style>
