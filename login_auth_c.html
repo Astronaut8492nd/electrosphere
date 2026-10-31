@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+
+    <head> <!--Metadata-->
+    <style>
+        body {
+            
+        }
+        html {
+            background-image: url('assets/images/UTDR_Ca.gif');
+        }
+    </style>
+        <header>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, inital-scale=1.0">
+        
+        <title>electrosphere\login</title>
+        
+        <link rel="stylesheet" href="css/coffee-dx2.css">
+	  
+	    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+		<!--BIG_FUCKING_TITLE_I_SPENT_TOO_LONG_ON-->
+		</header>
+		<h2 class="title" style="text-align: center">
+			<pre>:::        ::::::::   :::::::: ::::::::::: ::::    ::: 
+:+:       :+:    :+: :+:    :+:    :+:     :+:+:   :+: 
++:+       +:+    +:+ +:+           +:+     :+:+:+  +:+ 
++#+       +#+    +:+ :#:           +#+     +#+ +:+ +#+ 
++#+       +#+    +#+ +#+   +#+#    +#+     +#+  +#+#+# 
+#+#       #+#    #+# #+#    #+#    #+#     #+#   #+#+# 
+########## ########   ######## ########### ###    #### </pre></h2>	
+
+    </head>
+
+	<div id="splash" style="position: relative;">
+		<h1 id="nav">PAGE NAV</h1> 
+	</div>
+
+	<div id="splashtwo" class="flex-container" style="position: relative; z-index 1;justify-content:center;">
+        <div style="font-size: 1.5em;">&#171;</div>
+        <div>&ensp;&ensp;&ensp;</div>
+		
+        <div style="font-size: 1.5em; color:#a4791c; font-family: plex">Admin<a href="login_auth_c.html"><img src="assets/images/coffeemug.gif" width="94px" height="76px"></a></div>
+
+        <div style="font-size: 1.5em; color:#d8a028; font-family: plex";>C_Index<a href="coffee.html"><img src="assets/images/coffeemaker.gif" width="76px" height="76px"></a></div>
+
+        <div style="font-size: 1.5em; color:#a4791c; font-family: plex">Support<a href="coffeesupport.html"><img src="assets/images/coffeeplas.gif" width="100px" height="75px"></a></div>
+
+        <div>&ensp;&ensp;&ensp;&ensp;</div>
+        <div style="font-size: 1.5em;">&#187;</div>
+    </div>
+	<style>
+		input[type="password"] {
+			width: 100%;
+            padding: 10px;
+            margin: 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+		}
+		button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+		button:hover {
+            background-color: #0056b3;
+		}
+	        .error-message {
+            color: #dc3545;
+            font-size: 14px;
+            margin-top: 10px;
+            display: none;
+        }
+	</style>
+	
+	<div id="login">
+			<div class="login_container">
+				<h2>enter password</h2>
+				<form id="passwordForm">
+					<input type="password" id="passwordInput" placeholder="Password" required>
+					<button type="submit">Submit</button>
+				</form>
+				<div id="error" class="error-message">Incorrect Password. Try Again</div>
+			</div>
+
+			<script>
+				document.getElementById('passwordForm').addEventListener('submit', function(event) {
+					//prevent the form from submitting the traditional way via page refresh
+					event.preventDefault();
+
+					const passwordInput = document.getElementById('passwordInput').value;
+					const errorMessage = document.getElementById('error');
+
+					//define __--INSECURE--__ password and target page here :>
+					const correctPassword = "coffee";
+					const targetPage = "coffeeadmin.html";
+
+					if (passwordInput === correctPassword) {
+						//redir to success page
+						window.location.href = targetPage;
+					} else {
+						//Show error msg
+						errorMessage.style.display = 'block';
+						document.getElementById('passwordInput').value = '';
+					}
+				});
+			</script>
+	</div>
+
+
+	<!--div id="splashright" style="position: relative; z-index:0;">
+	<h1 class="rgbshift"></h1>
+
+	</div-->
+
+	<!--div id="splashleft"style="position:relative; z-index:2;">
+
+
+	</div-->
+
+	<!--div id="splashcenter" style="position:relative;z-index:0;">
+		<h1>TEST</h1>
+		<h1>SPLASHCENTER TEST</h1>
+	</div-->
+
+</html>

@@ -232,17 +232,19 @@ p {
 	background: rgba(28,110,164,0.30);
     color:#3e8e41;
 }
+/* really good groundwork for center element that doesnt wanna try to kill itself whenever the window size changes.also, the current HUD can be perhaps adapted to use position: fixed rather than relative so it looks 100000 times better. */
 #astro_island {
     font-family: "interstate-bold";
     color: #cfceb7;
     border-color: rgb(33, 174, 199);
     border: dotted;
     background-color: #8cc4ff2f;
-    position: absolute;
+    position: fixed;
     margin: auto;
     float: center;
-    left: 600px;
-    top: 500px;
+    left: 40%;
+    top: 70%;
+    width: 20%;
 }
 #media {
     color: #cfceb7;

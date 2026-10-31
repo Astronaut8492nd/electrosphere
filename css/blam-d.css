@@ -253,9 +253,8 @@ li {
     border: dotted;
     background-color: #8cc4ff2f;
     position: absolute;
-    margin: auto;
     float: center;
-    left: 600px;
+    left: 800px;
     top: 500px;
 }
 #media {
