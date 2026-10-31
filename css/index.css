@@ -242,9 +242,15 @@ p {
     position: fixed;
     margin: auto;
     float: center;
-    left: 40%;
+    left: 35%;
     top: 70%;
-    width: 20%;
+    width: 30%;
+}
+.coffee_pcc {
+    outline-width: 3px;
+    outline-style: dashed;
+    outline-color: #e4861a;
+    outline-offset: 5px;
 }
 #media {
     color: #cfceb7;
